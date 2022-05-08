@@ -1,0 +1,27 @@
+git --version
+
+
+Git Concepts
+Repo: directory that stores the project.
+Clone: copy of a repository.
+Branch: permits to separate work/tasks apart from the master.
+Merge: integrates changes from one branch to another.
+Push: copies changes from local repo to remote repo.
+Pull: copies changes from remote repo to local repo.
+
+Git Commands
+clone: creates a local copy of a remote repo.
+	git clone repository-URL
+
+add: stages new files.
+	git add . (this will add all files)
+	git add filename
+
+commit: store changes to the Git repo.
+	git commit -m "My first commit!"
+	
+pull: copy recent changes from a remote repo to the local repo.
+	git pull
+	
+push: copy recent changes from the local repo to a remote repo.
+	git push origin master
