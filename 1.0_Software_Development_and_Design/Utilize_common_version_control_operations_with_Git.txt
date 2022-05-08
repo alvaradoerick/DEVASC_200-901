@@ -1,4 +1,4 @@
-git --version
+(TEST)git --version
 
 
 Git Concepts
